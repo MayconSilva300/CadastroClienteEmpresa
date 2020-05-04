@@ -1,6 +1,6 @@
 ﻿namespace CasdastroClienteEmpresa
 {
-    partial class Form3
+    partial class CadastroEmpresa
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroEmpresa));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -115,7 +115,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form3
+            // CadastroEmpresa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -130,9 +130,9 @@
             this.Controls.Add(this.label8);
             this.Controls.Add(this.pictureBox1);
             this.MaximizeBox = false;
-            this.Name = "Form3";
+            this.Name = "CadastroEmpresa";
             this.ShowIcon = false;
-            this.Text = "Form3";
+            this.Text = "Cadastro Empresa";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

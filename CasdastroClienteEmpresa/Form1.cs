@@ -27,7 +27,7 @@ namespace CasdastroClienteEmpresa
 
         private void empresa_Click(object sender, EventArgs e)
         {
-            var form3 = new CadastroCliente();
+            var form3 = new CadastroEmpresa();
             form3.Show();
             Hide();
         }

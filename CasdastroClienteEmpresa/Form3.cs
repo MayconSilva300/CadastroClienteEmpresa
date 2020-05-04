@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CasdastroClienteEmpresa
 {
-    public partial class Form3 : Form
+    public partial class CadastroEmpresa : Form
     {
-        public Form3()
+        public CadastroEmpresa()
         {
             InitializeComponent();
         }
